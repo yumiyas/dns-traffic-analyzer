@@ -1,8 +1,6 @@
 DNS Traffic Analyzer 🔍
-
-https://img.shields.io/github/license/yumiyas/dns-traffic-analyzer
-https://img.shields.io/badge/python-3.6%252B-blue
-https://img.shields.io/badge/platform-linux%2520%257C%2520windows-lightgrey
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#)
 
 DNS Traffic Analyzer adalah tools yang diuat  untuk mendeteksi aktivitas mencurigakan dalam traffic DNS dari file PCAP. 
 Dilengkapi integrasi VirusTotal dan analisis cerdas untuk identifikasi malware/phishing.
@@ -28,14 +26,14 @@ Dilengkapi integrasi VirusTotal dan analisis cerdas untuk identifikasi malware/p
 
 Langkah Instalasi
 
-# Clone repository
+Clone repository
 git clone https://github.com/yourusername/dns-traffic-analyzer.git
 cd dns-traffic-analyzer
-
-# Install dependencies
 pip install -r requirements.txt
+chmod +x
 
-# Konfigurasi API key
+
+
 echo "VT_API_KEY='your_virustotal_api_key'" > config.py
 
 🛠 Penggunaan
@@ -94,17 +92,6 @@ python -m unittest discover tests
 Pull request dipersilakan! Untuk perubahan besar, buka issue terlebih dahulu.
 📜 Lisensi
 
-MIT © 2023 Your Name
+MIT © 2025 Yumiyas
 <div align="center"> <sub>Dibuat dengan ❤️ untuk keamanan jaringan yang lebih baik</sub> </div>
-Tips Profesional:
 
-    Untuk analisis lebih cepat, gunakan PCAP yang sudah difilter:
-    bash
-
-    tcpdump -i eth0 -w dns-only.pcap port 53
-
-    Gabungkan dengan tools lain seperti Wireshark untuk analisis lebih mendalam
-
-    Jadwalkan analisis rutin dengan cron job untuk monitoring berkelanjutan
-
-    💡 Catatan: Tools ini menggunakan API publik VirusTotal yang memiliki limit 4 request/menit. Untuk penggunaan intensif, pertimbangkan upgrade ke API premium.
