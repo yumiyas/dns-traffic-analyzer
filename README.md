@@ -1,10 +1,11 @@
 DNS Traffic Analyzer 🔍
 
-https://img.shields.io/github/license/yourusername/dns-traffic-analyzer
+https://img.shields.io/github/license/yumiyas/dns-traffic-analyzer
 https://img.shields.io/badge/python-3.6%252B-blue
 https://img.shields.io/badge/platform-linux%2520%257C%2520windows-lightgrey
 
-DNS Traffic Analyzer adalah tools canggih untuk mendeteksi aktivitas mencurigakan dalam traffic DNS dari file PCAP. Dilengkapi integrasi VirusTotal dan analisis cerdas untuk identifikasi malware/phishing.
+DNS Traffic Analyzer adalah tools yang diuat  untuk mendeteksi aktivitas mencurigakan dalam traffic DNS dari file PCAP. 
+Dilengkapi integrasi VirusTotal dan analisis cerdas untuk identifikasi malware/phishing.
 🌟 Fitur Utama
 
     ✅ Analisis traffic DNS dari file PCAP/PCAPNG
@@ -19,17 +20,13 @@ DNS Traffic Analyzer adalah tools canggih untuk mendeteksi aktivitas mencurigaka
 
     ✅ Threshold ketat untuk minimalisasi false positive
 
-🚀 Instalasi
-Prasyarat
+🚀 Persyaratan Instalasi
 
     Python 3.6+
-
-    pip
 
     VirusTotal API key (gratis)
 
 Langkah Instalasi
-bash
 
 # Clone repository
 git clone https://github.com/yourusername/dns-traffic-analyzer.git
